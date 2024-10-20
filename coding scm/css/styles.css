@@ -1,0 +1,177 @@
+/* -- General Styles -- */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* -- Header Section -- */
+header {
+    background-color: #f00;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo-pertamina {
+    height: 60px;
+    width: auto;
+    margin: 0 auto;   
+    display: block;
+}
+
+/* -- Navbar Styling -- */
+nav.bg-danger {
+    background-color: #f00 !important;
+}
+
+nav .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav .nav-link:hover {
+    color: #000 !important;
+}
+
+/* -- Hero Section -- */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero-section p {
+    color: #666;
+}
+
+/* -- Section Headings -- */
+section h2 {
+    font-size: 28px;
+    color: #d9534f;
+    margin-bottom: 30px;
+}
+
+/* -- Form Styling -- */
+.form-label {
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="tel"], input[type="password"] {
+    max-width: 500px;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+input:disabled {
+    background-color: #e9ecef;
+}
+
+/* -- Button Styling -- */
+.btn-danger {
+    background-color: #f00;
+    border-color: #f00;
+}
+
+.btn-danger:hover {
+    background-color: #d43f00;
+    border-color: #d43f00;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.btn-warning:hover {
+    background-color: #ec971f;
+    border-color: #ec971f;
+}
+
+/* -- Product Section -- */
+.products .card {
+    border: 1px solid #f00;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.products .card:hover {
+    transform: scale(1.05);
+}
+
+.products .card-body {
+    text-align: center;
+}
+
+.products .card-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.products .btn {
+    font-weight: bold;
+}
+
+/* -- Referral Section -- */
+.referral {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.referral input {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    display: block;
+    padding: 10px;
+}
+
+.referral button {
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.referral h3 {
+    font-size: 24px;
+    color: #d9534f;
+}
+
+/* -- Footer Styling -- */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+/* -- Media Queries -- */
+@media (max-width: 768px) {
+    nav .nav-item {
+        padding: 5px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    .hero-section h2 {
+        font-size: 28px;
+    }
+
+    .products .col-lg-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
